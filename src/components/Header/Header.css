@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    margin-top: 16px;
+}
+
+.logo {
+    width: 120px;
+    height: 33px;
+}
+
+.header-navbar {
+    margin-top: 16px;
+    display: flex;
+}
+
+.header-navbar-navlink {
+    color: var(--textColor);
+    font-size: 1.2rem;
+    margin-right: 12px;
+}
+
+.checked-nav-link {
+    border-bottom: 2px solid var(--textBorder);
+
+}
